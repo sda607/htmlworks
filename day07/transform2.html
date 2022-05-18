@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>변형 속성</title>
+    <style>
+     
+        div.b{
+            width: 150px;
+            height: 80px;
+            background: #0f0;
+            
+        }
+        div.b:hover{
+            transform: rotate(20deg);
+        }
+        div.c{
+            width: 150px;
+            height: 80px;
+            background: #0f0;
+            /* 1초 지연시간 적용 */
+            transition-property: background-color, transform, ;
+            transition-duration: 1s, 1s, 1s;
+
+           
+        }
+        div.c:hover{
+             height: 100px;
+             transform: translateY(-50px);
+             background: #00f;
+        }
+        div.d{
+            width: 150px;
+            height: 80px;
+            background: #0f0;
+            /* y축으로 1.5백 확대 */
+            transform:scaleyY(1.5);
+        }
+    </style>
+</head>
+<body>
+    <h2>transform: rotate(20deg)</h2>
+    <div class="b">HEllo World!</div>
+    <h2>transform: translatex(50px)</h2>
+    <div class="c">HEllo World!</div>
+    <h2>transform: scaleyY(1.5)</h2>
+    <div class="d">HEllo World!</div>
+</body>
+</html>

@@ -25,6 +25,8 @@ main{width: 1000px; margin: 30px auto;}
 #healing img, #activity img{float: left; margin-right: 20px;
     border-radius: 20px;}
 #healing, #activity{height: 300px;}
+#healing .schedule ul li{list-style: none; margin: 0 5px;}
+#healing h3{margin: 20px 0 10px;}
 footer{width: 1000px; margin: 30px auto;
         border-top: 2px solid #222;}
 #sightseeing ul li{margin: 10px 30px;}
@@ -62,4 +64,12 @@ footer #bottomMenu{list-style: none; margin: 10px 10px 10px 40px; }
       margin-left: 40px; text-align: center;}
 #tbl_board th, #tbl_board td{border: 1px solid #ccc;}        
 #tbl_board thead{background: #eee;}
-        
+
+/* aboutme 스타일 */
+.profile{
+    width: 1200px;
+    height: 900px;
+}
+.nav ul{
+    line-height: normal;
+}   

@@ -1,0 +1,17 @@
+ #contents{
+            background: url(../images/bg.jpg) 650px 450px;
+            background-repeat: no-repeat;
+            background-position: cover;
+            position: absolute;
+            margin: 50 auto;
+        }
+#contents h1{
+            font: 100px;
+            color: white;
+            text-align: right;
+            text-shadow: 3px 3px #000;
+            position: absolute;
+            margin: 0;
+            right: 50px;
+            bottom: 100px;
+        }
