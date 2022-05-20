@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{margin: 0; padding: 0;}
+      #container{width: 1000px; margin: 0 auto;}
+      nav{height: 60px; background: rgba(1, 1, 168);}
+      #main-menu{list-style: none; text-align: center;}
+      #main-menu > li{display: inline-block; background: rgb(1, 1, 168); margin: 10px;}
+      #main-menu > li > a{
+          display: block;
+          text-decoration: none; 
+          color: whitesmoke;
+          padding: 10 30px;
+        }
+/* 9강=32페이지 */
+        /* 서브메뉴 */
+    #sub-menu{
+        list-style: none; 
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        visibility: hidden;
+    }    
+    #sub-menu > li{padding: 15 30px;}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <ul id="main-menu">
+                <li><a href="#">기업정보</a></li>
+                <li><a href="#">제품소개</a>
+                    <ul id="sub-menu">
+                        <li><a href="#">메모리1</a></li>
+                        <li><a href="#">메모리2</a></li>
+                        <li><a href="#">메모리3</a></li>
+                        <li><a href="#">메모리4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">투자정보</a></li>
+                <li><a href="#">인재채용</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
